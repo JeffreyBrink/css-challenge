@@ -10,11 +10,10 @@ html, body {
 	box-sizing: border-box;
 }
 
-.container {
-	margin: 0 auto;
-	padding: 0 2rem;
-}
 
+#wrap {
+	display:table-row;
+}
 .clearfix {
 	clear: both;
 }
@@ -61,7 +60,28 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-body {background-color: darkblue;}
+header {
+	background-color: #383838;
+	padding: 10px 0;
+	display:table;
+	width:100%;
+	text-align: left;
+	font-family: "Times New Roman", Time, serif;
+	font-size: large;
+	color: greenyellow;
+}
+
 h1 {
-	color: maroon;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	text-indent: 425px;
+}
+
+em {
+	margin-left: 50px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
 }
